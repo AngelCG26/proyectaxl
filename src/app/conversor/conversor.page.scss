@@ -1,0 +1,36 @@
+
+ion-content {
+    --background: #f0f2f5; 
+  }
+  
+  ion-toolbar {
+    --background: #00c3ff; 
+    --color: #000000;
+  }
+  
+  ion-title {
+    font-size: 1.2rem;
+  }
+  
+  ion-grid {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  ion-button {
+    --background: #1230db;
+    --color: #ffffff;
+    margin: 10px;
+    font-size: 1.2rem;
+    min-width: 80px;
+    min-height: 40px;
+  }
+
+  ion-button:hover {
+    --background: #0483d8;
+    --color: #000000;
+  }
+  
+  ion-button:active {
+    --background: #2400f1;
+  }

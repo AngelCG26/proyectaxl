@@ -1,0 +1,54 @@
+
+ion-content {
+    --background: #f0f2f5; 
+  }
+  
+  ion-toolbar {
+    --background: #ae00ff; 
+    --color: #ffffff;
+  }
+  
+  ion-title {
+    font-size: 1.2rem;
+  }
+  
+  ion-grid {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  ion-button {
+    --background: #8b12db;
+    --color: #ffffff;
+    margin: 10px;
+    font-size: 1.2rem;
+    min-width: 80px;
+    min-height: 40px;
+  }
+
+  ion-button:hover {
+    --background: #0bd804;
+    --color: #000000;
+  }
+  
+  ion-button:active {
+    --background: #dd00f1;
+  }
+  
+  ion-input {
+    --background: #000000;
+    --padding-start: 10px;
+    --padding-end: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  ion-content .ion-padding {
+    padding: 20px;
+  }
+
+  .calculator-container ion-input {
+  --background: #000;
+  --color: #fff; 
+  border: 5px solid #000000;
+}

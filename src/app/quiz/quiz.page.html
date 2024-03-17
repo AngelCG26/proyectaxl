@@ -1,0 +1,199 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/home" routerDirection="back">
+        Regresar
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Quiz Genshin Impact
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="preguntas-container">
+    
+    <div class="pregunta">
+      <p>Pregunta 1: En que nación iniciamos la historia?</p>
+      <ion-radio-group [(ngModel)]="respuestas[0]">
+        <ion-item>
+          <ion-label>A.- Kaenriah</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Monstad</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Liyue</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 2:Como se llama nuestra compañera de viaje?</p>
+      <ion-radio-group [(ngModel)]="respuestas[1]">
+        <ion-item>
+          <ion-label>A.- Kiana</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Seelie</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Paimon</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 3:Cual es el nombre de arconte y personal del Dios anemo?</p>
+      <ion-radio-group [(ngModel)]="respuestas[2]">
+        <ion-item>
+          <ion-label>A.- Morax/Zhongli</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Barbatos/Venti</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Beelzebub/Ei</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 4:Cual fue el ultimo elemento en tener personajes jugables?</p>
+      <ion-radio-group [(ngModel)]="respuestas[3]">
+        <ion-item>
+          <ion-label>A.- Dendro</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Hydro</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Anemo</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 5:Cuantas naciones hay en teyvat?</p>
+      <ion-radio-group [(ngModel)]="respuestas[4]">
+        <ion-item>
+          <ion-label>A.- 8 naciones</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- 7 naciones</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- 5 naciones</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 6:Raiden Shogun, Diosa de la eternidad y el rayo es la arconte de...</p>
+      <ion-radio-group [(ngModel)]="respuestas[5]">
+        <ion-item>
+          <ion-label>A.- Inazuma</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Enkanomiya</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Sumeru</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 7:Cuantos años aproximadamente han pasado desde la destrucción de la nacion de Kaenriah</p>
+      <ion-radio-group [(ngModel)]="respuestas[6]">
+        <ion-item>
+          <ion-label>A.- 2000 años</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- 100 años</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- 500 años</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 8:Cual Arconte se sacrifico por su nación para evitar una profecia?</p>
+      <ion-radio-group [(ngModel)]="respuestas[7]">
+        <ion-item>
+          <ion-label>A.- Focalors</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Rukkhadevata</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Baal</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 9:Como se llaman los personajes protagonistas?</p>
+      <ion-radio-group [(ngModel)]="respuestas[8]">
+        <ion-item>
+          <ion-label>A.- Lyney y Lynette</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Aether y Lumine</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Barbara y Jean</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <div class="pregunta">
+      <p>Pregunta 10:Quien de estos no es uno de los 7 Arcontes?</p>
+      <ion-radio-group [(ngModel)]="respuestas[9]">
+        <ion-item>
+          <ion-label>A.- Zarina</ion-label>
+          <ion-radio slot="start" value="A"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>B.- Kusanali</ion-label>
+          <ion-radio slot="start" value="B"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>C.- Neuvillette</ion-label>
+          <ion-radio slot="start" value="C"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </div>
+
+    <ion-button expand="full" (click)="calcularPuntuacion()">Calcular Puntuación</ion-button>
+  </div>
+</ion-content>

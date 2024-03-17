@@ -1,0 +1,7 @@
+{
+  "name": "proyectaxl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

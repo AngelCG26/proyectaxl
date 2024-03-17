@@ -1,0 +1,61 @@
+ion-content {
+    --background: url('/assets/img/fondo.jpg') no-repeat center center fixed;
+    --background-size: cover;
+  }
+  
+  .preguntas-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .pregunta {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .pregunta p {
+    color: #fff;
+  }
+  
+  ion-item ion-label {
+    color: #000000;
+  }
+  
+  ion-item ion-radio {
+    --background: #ffffff62;
+  }
+
+  ion-toolbar {
+    --background: #f1ff71; 
+    --color: #000000;
+  }
+  
+  ion-title {
+    font-size: 1.2rem;
+  }
+  
+  ion-grid {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  ion-button {
+    --background: #db8412;
+    --color: #000000;
+    margin: 10px;
+    font-size: 1.2rem;
+    min-width: 80px;
+    min-height: 40px;
+  }
+
+  ion-button:hover {
+    --background: #c4231d;
+    --color: #ffffff;
+  }
+  
+  ion-button:active {
+    --background: #000000;
+  }
